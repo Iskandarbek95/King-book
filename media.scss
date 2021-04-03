@@ -1,0 +1,183 @@
+@media (max-width: 425px) {
+    .container{
+        width: 425px;
+        padding: 0 10px;
+    }
+
+    .header{
+        .nav-top{
+            display: flex;
+            flex-direction: row;
+            ul{
+                .logo{
+                    display: block;
+                    margin-right: 195px;
+                    font-size: 30px;
+                }
+                li{
+                    display: none;
+                }
+                .menu{
+                    display: block;
+                }
+            }
+        }
+        .header__body{
+            height: 430px;
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            .header__body-inform {
+                height: 450px;
+                width: 425px;
+                padding-left: 30px;
+                h1{
+                    margin: 10px 0;
+                    font-size: 36px;
+                    font-weight: 700;
+                    line-height: 48px;
+                }
+                button{
+                    margin-left: 90px;
+                }
+            }
+            .header__body-img {
+                display: none;
+            }
+        }
+        .header__body-2{
+            display: flex;
+            flex-direction: column;
+            padding-left: 80px;
+            div{
+                text-align: center;
+                .h-b-2__img{
+                    margin-left: 50px;
+                }
+            }
+        }
+    } 
+
+    .main{
+        padding: 0 10px;
+        .global-shop{
+            height: 550px;
+            width: 425px;
+            background-color: white;
+            .shop{
+                height: 550px;
+                width: 425px;
+                padding: 0;
+                background-color: white;
+                .shop__box{
+                    height: 550px;
+                    width: 425px;
+                    background-color: white;
+                    padding: 0;
+                    .shop__box-input{
+                        width: 400px;
+                        h2{
+                            font-size: 30px;
+                        }
+                        .input{
+                            width: 400px;
+                            div{
+                                width: 130px;
+                            }
+                        }
+                    }
+                    .input-img{
+                        display: none;
+                    }
+                }
+            }
+        }
+        .free{
+            text-align: center;
+            .car{
+                height: 320px;
+                width: 385px;
+                display: flex;
+                // flex-wrap: wrap;
+                flex-direction: column;
+                padding-top: 40px;
+                margin: 0;
+            }
+            .free__inform{
+                .f-i__pages{
+                    display: flex;
+                    flex-wrap: wrap;
+                    .pages{
+                        margin-left: 50px;
+                        .nike{
+                            margin-left: 110px;
+
+                        }
+                    }
+                }
+            }
+        }
+        .how{
+            width: 425px;
+            h2{
+                width: 400px;
+                text-align: center;
+            }
+            .how__inform{
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+                div{
+                    width: 400px;
+                    p{
+                        width: 400px;
+                    }
+                }
+
+            }
+        }
+        .client{
+            .c-i{
+                .c-i-p__none{
+                    display: none;
+                }
+                .c-i-p{
+                    .c-i-pages{
+                        width: 380px;
+                        .icon{
+                            width: 130px;
+                        }
+                    }
+                }
+            }
+        }
+        .question{
+            details{
+                p{
+                    width: 390px;
+            }
+            }
+        }
+        .yes{
+            width: 390px;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            text-align: center;
+            gap: 20px;
+        }
+    }
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        margin-left: 50px;
+    }
+    .links{
+        margin-top: 20px;
+        margin-right: 50px;
+    }
+}
